@@ -40,7 +40,7 @@ const Footer = () => {
           </Col>
         <Col xl={7}>
           <Row className=" foot-show">
-            <Col lg={3} sm={6}>
+            <Col lg={3} sm={6} className='col-6'>
               <ul class="ps-0 mb-0">
                 <li class="text-white ff-poppins fs-s-md fw-semibold lh-150 pt-3 ">
                   CUSTOM LINKS
@@ -57,7 +57,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={3} sm={6}>
+            <Col lg={3} sm={6} className='col-6'>
               <ul class="ps-0 mb-0">
                 <li class="text-white ff-poppinsfs-s-md fw-semibold lh-150 pt-3 ">
                   PRODUCTS
@@ -78,7 +78,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={3} sm={6}>
+            <Col lg={3} sm={6} className='col-6'>
               <ul class="ps-0 mb-0">
                 <li class="text-white ff-poppins fs-s-md fw-semibold lh-150 pt-3">
                   OUR COMPANY
@@ -95,7 +95,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={3} sm={6}>
+            <Col lg={3} sm={6} className='col-6'>
               <ul class="ps-0 mb-0">
                 <li class="text-white ff-poppinsfs-s-md fw-semibold lh-150 pt-3">
                   YOUR ACCOUNT
