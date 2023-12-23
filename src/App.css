@@ -354,7 +354,7 @@
   width: 40px;
   height: 40px;
   position: fixed;
-  bottom: 6px;
+  bottom: 18px;
   right: 20px;
   z-index: 3;
 }
@@ -794,6 +794,10 @@ link.active {
 .size{
   width: 72px;
 }
+
+.outline-0{
+  outline: 0;
+}
 .footer-underline::after {
   position: absolute;
   content: "";
@@ -816,10 +820,6 @@ link.active {
 .display_none {
   display: none;
 }
-
-/* #top{
-    display: none;
-} */
 
 .aro-img {
   width: 5%;

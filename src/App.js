@@ -9,6 +9,7 @@ import Relatedcard from './components/Relatedcard';
 import Footer from './components/Footer';
 import Tab from './components/Tab';
 import Backtotop from './components/Backtotop';
+import { Router } from 'react-router-dom';
 
 function App() {
   return (
