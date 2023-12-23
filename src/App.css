@@ -186,17 +186,6 @@
   }
 }
 
-.btn {
-  border: none !important;
-  border-radius: 9.219px !important;
-}
-.btn-check:checked + .btn {
-  background-color: #f40 !important;
-  color: white !important;
-}
-.btn-check:checked + .btn1 {
-  color: #f00 !important;
-}
 .sec4-btn1 {
   width: 92px;
   height: 47px;
@@ -205,10 +194,15 @@
   background: rgba(196, 196, 196, 0);
   opacity: 0.77;
   cursor: pointer;
+  transition: .4s;
+}
+.sec4-btn1:hover {
+  background-color: #ff4400 !important;
+  color: white;
+  border: none;
 }
 .sec4-btn {
   border-radius: 9.219px;
-  background: #fff;
   box-shadow: 3px 5px 22px 0px rgba(0, 0, 0, 0.08);
   width: 59px;
   height: 59px;
@@ -217,17 +211,20 @@
   align-items: center !important;
   justify-content: center !important;
   cursor: pointer;
+  transition: .4s;
+}
+.sec4-btn:hover {
+  background-color: #ff4400 !important;
+  border: none;
+  color: #fff !important;
 }
 
-.btn-check{
-  background-color: red !important;
-}
 
 /* card */
 
 #sizechart {
   max-width: 117px;
-  padding: 12px 17px 8px 13px;
+  padding: 12px 17px 8px 13px;  
   border-radius: 21px;
   border: 1px solid #e8e8e8;
   background: rgba(196, 196, 196, 0);
@@ -285,7 +282,7 @@
   padding: 10px 15px;
   border-radius: 21px;
   border: 1px solid #e8e8e8;
-  background: rgba(196, 196, 196, 0);
+  background: rgba(196, 196, 196, 0); 
 }
 
 .box-red {
@@ -413,7 +410,7 @@
   border: 1px solid #DEE2E6;
 background: #FFF;
 box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.10);
-padding: 24px;
+padding: unset;
 }
 
 .d-cl {
@@ -526,9 +523,7 @@ padding: 24px;
   /* background: url(<path-to-image>), lightgray 50% / cover no-repeat, #F3F3F3; */
   transition: 0.4s;
 }
-.image-texture:hover {
-  transform: scale(1.1);
-}
+
 
 .bg-off-sale {
   background-color: #d36b31;
@@ -631,6 +626,11 @@ padding: 24px;
   padding: 7px 25px;
   border-radius: 40px;
   border: 1px solid rgba(0, 0, 0, 0.12);
+  transition: .4s;
+}
+.size-chart:hover {
+ color: white !important;
+ background-color: var(--bg-black1);
 }
 
 .card-footloker {
@@ -691,7 +691,7 @@ padding: 24px;
   transition: all 0.3s linear;
 }
 
-.card-footloker:hover button {
+.bestprize-button:hover {
   animation: pulsegreen 1s;
   box-shadow: 0 0 #28a745;
   color: #28a745 !important;
@@ -707,7 +707,7 @@ padding: 24px;
   transition: all 0.2s linear;
 }
 
-.product-card:hover .cart svg path {
+.cart:hover svg path {
   fill: white;
   stroke: #28a745;
 }
@@ -715,6 +715,10 @@ padding: 24px;
 .product-card:hover .star svg path {
   fill: #d36b31;
 }
+.product-card:hover .image-texture {
+  transform: scale(1.1);
+}
+
 
 .color-macth {
   border: 1px solid transparent;
@@ -777,9 +781,15 @@ link.active {
 .end-0 {
   left: 0;
 }
+
+.disgn{
+  transition: .4s !important;
+}
+
 .disgn:hover{
   -webkit-text-stroke: 1px !important;
 }
+
 
 .size{
   width: 72px;
@@ -886,5 +896,24 @@ link.active {
     animation: pulsegreenout 1s;
     box-shadow: 0 0 0 0.7em transparent;
     transition: all 0.1s linear;
+  }
+  .nav-bg{
+    border: 1px solid #DEE2E6;
+  background: #FFF;
+  box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.10);
+  padding: 24px;
+  }
+  .nav-link {
+    color: black !important;
+    display: block;
+    margin-right: 93px !important;
+    padding: unset !important;
+    font-size: var(--fs-m-md) !important;
+    font-weight: 400 !important;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
   }
 }

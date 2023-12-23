@@ -78,7 +78,7 @@ const Lathersec = () => {
               <p className="mb-0 fs-m-md color-black fw-medium ff-poppins lh-125">
                 Qty:
               </p>
-              <div className="d-flex align-items-center gap-3 mb-1">
+              <div className="d-flex align-items-center gap-3 mb-1">  
                 <div className="add-box">
                   <button
                     className="text-decoration-none fs_2xl fw-normal lh-25 ff-2 border-0 bg-transparent"

@@ -7,7 +7,7 @@ export const Section3 = () => {
   const [key, setKey] = useState("home");
   return (
     <div>
-      <section className="py-sm-5 py-4">
+      <section className="py-sm-5 py-4  ">
         <div className="container">
           <div className="tab-container">
             <Tabs
@@ -29,7 +29,7 @@ export const Section3 = () => {
                   Etiam vel lectus tortor. Pellentesque non pharetra mi. Cura{" "}
                 </p>
               </Tab>
-              <Tab eventKey="profile" className="fs-m-md fw-normal ff-poppins lh-125" title="Additional Information">
+              <Tab eventKey="profile" className="fs-m-md fw-normal ff-poppins lh-125 " title="Additional Information">
                 <p className=" fs-m-md fw-normal ff-poppins lh-185 text-light-black1"> {" "}
                   Sed nec ultricies felis, vitae facilisis ipsum. Morbi id
                   turpis euismod, rhoncus tortor quis, lobortis sapien. Sed

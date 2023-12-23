@@ -42,34 +42,34 @@ const Productcard = () => {
             </p>
             <div className="d-flex align-items-center pt-2 justify-content-between">
               <div className="size-chart">
-                <p className="mb-0 text-light-black2 ff-poppins fs-l-sm fw-medium lh-125 text-center">
+                <p className="mb-0 ff-poppins fs-l-sm fw-medium lh-125 text-center">
                   41
                 </p>
               </div>
               <div className="size-chart">
-                <p className="mb-0 text-light-black2 ff-poppins fs-l-sm fw-medium lh-125 text-center">
+                <p className="mb-0  ff-poppins fs-l-sm fw-medium lh-125 text-center">
                   42
                 </p>
               </div>
               <div className="size-chart">
-                <p className="mb-0 text-light-black2 ff-poppins fs-l-sm fw-medium lh-125 text-center">
+                <p className="mb-0  ff-poppins fs-l-sm fw-medium lh-125 text-center">
                   43
                 </p>
               </div>
             </div>
             <div className="d-flex align-items-center pt-2 justify-content-between mb-1">
               <div className="size-chart">
-                <p className="mb-0 text-light-black2 ff-poppins fs-l-sm fw-medium lh-125 text-center">
+                <p className="mb-0  ff-poppins fs-l-sm fw-medium lh-125 text-center">
                   44
                 </p>
               </div>
               <div className="size-chart">
-                <p className="mb-0 text-light-black2 ff-poppins fs-l-sm fw-medium lh-125 text-center">
+                <p className="mb-0  ff-poppins fs-l-sm fw-medium lh-125 text-center">
                   45
                 </p>
               </div>
               <div className="size-chart">
-                <p className="mb-0 text-light-black2 ff-poppins fs-l-sm fw-medium lh-125 text-center">
+                <p className="mb-0  ff-poppins fs-l-sm fw-medium lh-125 text-center">
                   46
                 </p>
               </div>

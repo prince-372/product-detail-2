@@ -94,13 +94,13 @@ const Relatedcard = ()=> {
             </Row>
             <div className="d-flex pt-5 gap-3 justify-content-end align-items-center">
         <div className="btn-group gap-3" role="group" aria-label="Basic radio toggle button group"> <input type="radio"
-            className="btn-check" name="btnradio" id="btnradio1" checked=""/> <label
-            className="sec4-btn btn  fw-semibold fs-x-md lh-base ff-poppins" for="btnradio1">1</label> <input
-            type="radio" className="btn-check" name="btnradio" id="btnradio2"/> <label
-            className="sec4-btn btn  fw-semibold fs-x-md lh-base ff-poppins" for="btnradio2">2</label> <input
-            type="radio" className="btn-check" name="btnradio" id="btnradio3"/> <label
-            className="sec4-btn btn  fw-semibold fs-x-md lh-base ff-poppins" for="btnradio3">3</label> </div>
-        <p className="sec4-btn1 grey1 ff-poppins fs-16 lh-1 d-flex justify-content-center align-items-center p-0 m-0"> Next {">>"}
+            className="btn-check" name="btnradio" /> <label
+            className="sec4-btn   fw-semibold fs-x-md lh-base ff-poppins">1</label> <input
+            type="radio" className="btn-check" /> <label
+            className="sec4-btn  fw-semibold fs-x-md lh-base ff-poppins">2</label> <input
+            type="radio" className="btn-check"  /> <label
+            className="sec4-btn   fw-semibold fs-x-md lh-base ff-poppins">3</label> </div>
+        <p className="sec4-btn1 grey1  ff-poppins fs-16 lh-1 d-flex justify-content-center align-items-center p-0 m-0" > Next {">>"}
         </p>
       </div>
         </Container>
